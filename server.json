@@ -1,0 +1,10 @@
+{
+    "apps" : [{
+      "name" : "trader",
+      "script"    : "index.js",
+      "instances" : "max",
+      "exec_mode" : "cluster",
+      "time" : true,
+      "args" : "trade"
+    }] 
+}
